@@ -6,7 +6,22 @@
     <link href="../Content/bootstrap.css" rel="stylesheet" />
     <script src="../Scripts/jquery-3.1.1.js"></script>
     <script src="../Scripts/bootstrap.js"></script>
+    <style>
+        #projects > img{
+           padding:10px;
+        }
 
+        #projects > table {
+            border:dashed;
+            border-width:1px;
+            width:100%;
+        }
+
+        td{
+            width:131px;
+            height:311px;
+        }
+    </style>
     <script>
         $(document).ready({
         });
@@ -16,8 +31,8 @@
 </head>
 <body>
     <div class="row">
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container-fluid">
+        <nav class="navbar navbar-inverse">
+            <div class="container">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="#">WebSiteName</a>
                 </div>
@@ -30,9 +45,44 @@
             </div>
         </nav>
     </div>
-    <div class="row">
-        <div class="col-md-12 col-sm-12 col-xs-12">
-           
+    <div class="container">
+        <div id="project_content" class="row">
+            <div id="projects" class="col-md-12 col-sm-12 col-xs-12">
+                <img src="Resources/pictures/JComFITS.png" />
+                <img src="Resources/pictures/BEStPRO.PNG" />
+                <img src="Resources/pictures/JComFITS.png" />
+                <img src="Resources/pictures/BEStPRO.PNG" />
+            </div>
+            <div id="JComFITS" class="col-md-12 col-sm-12 col-xs-12">
+                <div id="JComFITS_Icon" class="col-md-4 col-sm-4 col-xs-4">
+                    <img src="Resources/pictures/JComFITS.png" />
+                </div>
+                <div id="JComFITS_Desc" class="col-md-8 col-sm-8 col-xs-8">
+                    <p>
+                        Description:
+                        J＋ComFITs (ジェイプラスコンフィッツ)は、富士通エンジニアリングテクノロジーズ（旧：日揮情報システム）が現在までにご提供してきた建設業向け成功事例を結集した基幹業務システムです。
+                        建設業の機能を集約し、機能の共通化、標準化を促進しました。
+
+                        Members:
+                      <table class="members">
+                          <tr>
+                              <td>
+                                  <img src="Resources/pictures/04 Espie_0182.png" />
+                              </td>
+                              <td>
+                                  <img src="Resources/pictures/10 Mina_0207.png" />
+                              </td>
+                              <td>
+                                  <img src="Resources/pictures/Misai_7032.png" />
+                              </td>
+                              <td>
+                                  <img src="Resources/pictures/Pau_0206.png" />
+                              </td>
+                          </tr>
+                      </table>
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 </body>

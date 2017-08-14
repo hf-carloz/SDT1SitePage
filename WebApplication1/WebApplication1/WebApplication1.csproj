@@ -90,6 +90,13 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Index\Resources\pictures\04 Espie_0182.png" />
+    <Content Include="Index\Resources\pictures\10 Mina_0207.png" />
+    <Content Include="Index\Resources\pictures\BEStPRO.PNG" />
+    <Content Include="Index\Resources\pictures\JComFITS.png" />
+    <Content Include="Index\Resources\pictures\Mark_0229.png" />
+    <Content Include="Index\Resources\pictures\Misai_7032.png" />
+    <Content Include="Index\Resources\pictures\Pau_0206.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
@@ -105,7 +112,6 @@
   <ItemGroup>
     <Folder Include="Index\CSS\" />
     <Folder Include="Index\customscripts\" />
-    <Folder Include="Index\Resources\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
