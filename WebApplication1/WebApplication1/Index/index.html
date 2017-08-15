@@ -7,26 +7,92 @@
     <script src="../Scripts/jquery-3.1.1.js"></script>
     <script src="../Scripts/bootstrap.js"></script>
     <style>
-        #projects > img{
-           padding:10px;
+        .hide {
+            display: none !important;
+        }
+
+        #projects > img {
+            padding: 10px;
         }
 
         #projects > table {
-            border:dashed;
-            border-width:1px;
-            width:100%;
+            width: 100%;
         }
 
-        td{
-            width:131px;
-            height:311px;
+        .project_members td > img {
+            max-height: 300px;
+            max-width: 205px;
+            width: 100%;
+            padding: 0 10px 10px 0;
+        }
+
+        .project_icons td > img {
+            margin: auto;
+            display: block;
+            width: 100%;
+            padding: 10px;
+            max-height: 300px;
+            max-width: 300px;
+        }
+
+        .project {
+            margin: auto;
+            display: block;
+        }
+
+        .project_desc {
+            padding: 10px;
+        }
+
+        .project_members > .members{
+            display: block;
+            padding-top: 10px;
+            text-align: center;
+        }
+
+         .project div > a[title="back"], .project_icons td > img {
+             cursor:pointer;
+
+         }
+
+        .project div > a[title="back"] {
+          text-align:center;
+        }
+
+        .members > p {
+        }
+
+        .project_icon {
+            display: block;
+            margin: auto;
         }
     </style>
     <script>
-        $(document).ready({
+
+        $(document).ready(function () {
+            $(".project").addClass("hide");
+            $("#project_content").removeClass("hide");
+            $("#projects").removeClass("hide");
+            var title;
+
+            $(".project_icons td > img").click(function () {
+                $("#projects").addClass("hide");
+                title = $(this).attr('title');
+                $("#"+title).removeClass("hide");
+            });
+
+            $("a[title='back']").click(function () {
+                $("#" + title).addClass("hide");
+                title = "";
+                $("#projects").removeClass("hide");
+            });
+
+
         });
-        
-        
+
+      
+
+
     </script>
 </head>
 <body>
@@ -46,43 +112,93 @@
         </nav>
     </div>
     <div class="container">
-        <div id="project_content" class="row">
+        <div id="project_content" class="row hide">
             <div id="projects" class="col-md-12 col-sm-12 col-xs-12">
-                <img src="Resources/pictures/JComFITS.png" />
-                <img src="Resources/pictures/BEStPRO.PNG" />
-                <img src="Resources/pictures/JComFITS.png" />
-                <img src="Resources/pictures/BEStPRO.PNG" />
+                <table class="project_icons">
+                    <tr>
+                        <td>
+                            <img title="JComFITS" src="Resources/pictures/JComFITS.png" />
+                        </td>
+                        <td>
+                            <img title="BEStPRO" src="Resources/pictures/BEStPRO.PNG" />
+                        </td>
+                        <td>
+                            <img src="Resources/pictures/BEStPRO.PNG" />
+                        </td>
+                    </tr>
+                </table>
             </div>
-            <div id="JComFITS" class="col-md-12 col-sm-12 col-xs-12">
-                <div id="JComFITS_Icon" class="col-md-4 col-sm-4 col-xs-4">
-                    <img src="Resources/pictures/JComFITS.png" />
-                </div>
-                <div id="JComFITS_Desc" class="col-md-8 col-sm-8 col-xs-8">
-                    <p>
-                        Description:
-                        J＋ComFITs (ジェイプラスコンフィッツ)は、富士通エンジニアリングテクノロジーズ（旧：日揮情報システム）が現在までにご提供してきた建設業向け成功事例を結集した基幹業務システムです。
+            <!-- J+ComFITS -->
+            <div id="JComFITS" class="col-md-12 col-sm-12 col-xs-12 project">
+                <div class="col-md-3 col-sm-3 col-xs-3" style="border-right:solid;border-right-width:2px;">
+                    <img id="JComFITS_Icon" class="project_icon" src="Resources/pictures/JComFITS.png" />
+                    <p id="JComFITS_Desc" class="project_desc">
+                        J＋ComFITs (ジェイプラスコンフィッツ)は、富士通エンジニアリングテクノロジーズ（旧：日揮情報システム）
+                        が現在までにご提供してきた建設業向け成功事例を結集した基幹業務システムです。
                         建設業の機能を集約し、機能の共通化、標準化を促進しました。
-
-                        Members:
-                      <table class="members">
-                          <tr>
-                              <td>
-                                  <img src="Resources/pictures/04 Espie_0182.png" />
-                              </td>
-                              <td>
-                                  <img src="Resources/pictures/10 Mina_0207.png" />
-                              </td>
-                              <td>
-                                  <img src="Resources/pictures/Misai_7032.png" />
-                              </td>
-                              <td>
-                                  <img src="Resources/pictures/Pau_0206.png" />
-                              </td>
-                          </tr>
-                      </table>
                     </p>
                 </div>
+                <div id="JComFITS_Mem" class="col-md-9 col-sm-9 col-xs-9 project_members">
+                    <h4>Members:</h4>
+                    <table class="members">
+                        <tr>
+                            <td>
+                                <p>Espie</p>
+                                <img src="Resources/pictures/04 Espie_0182.png" />
+                                <p>Client:</p>
+                                <p>Location:</p>
+                            </td>
+                            <td>
+                                <p>Mina</p>
+                                <img src="Resources/pictures/10 Mina_0207.png" />
+                                <p>Client:</p>
+                                <p>Location:</p>
+                            </td>
+                            <td>
+                                <p>Misai</p>
+                                <img src="Resources/pictures/Misai_7032.png" />
+                                <p>Client:</p>
+                                <p>Location:</p>
+                            </td>
+                            <td>
+                                <p>Pau</p>
+                                <img src="Resources/pictures/Pau_0206.png" />
+                                <p>Client:</p>
+                                <p>Location:</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div><a title="back" class="col-md-12 col-sm-12 col-xs-12"> << Back </a></div>
             </div>
+            <!-- J+ComFITS -->
+            <!-- BEStPRO -->
+            <div id="BEStPRO" class="col-md-12 col-sm-12 col-xs-12 project">
+                <div class="col-md-3 col-sm-3 col-xs-3" style="border-right:solid;border-right-width:2px;">
+                    <img id="project_Icon" class="project_icon" src="Resources/pictures/BEStPRO.png" />
+                    <p id="project_Desc" class="project_desc">
+                        すでに全国5,000か所以上の作業所で利用されている建設業向 け工事原価管理システム
+                        「BEStPRO-原価」を一新した新製品です。 本製品は、Microsoft Excelとの親 和性と高い信頼性を実現するため、
+                        ソフトウェア開発基盤を.NET Frameworkとし、より分かりやすいユ ーザーインタフェースへの対応やユーザーからの機能要望を実装し
+                        、大幅な機能強化が図られていま す。特に、建設業務での原価管理に加え、土木現場における機能を強化した点が特徴です。
+                    </p>
+                </div>
+                <div id="project_Mem" class="col-md-9 col-sm-9 col-xs-9 project_members">
+                    <h4>Members:</h4>
+                    <table class="members">
+                        <tr>
+                            <td>
+                                <p>Mark</p>
+                                <img src="Resources/pictures/Mark_0229.png" />
+                                <p>Client:</p>
+                                <p>Location:</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+               <div><a title="back"  class="col-md-12 col-sm-12 col-xs-12"> << Back </a></div>
+            </div>
+            <!-- BEStPRO -->
         </div>
     </div>
 </body>
