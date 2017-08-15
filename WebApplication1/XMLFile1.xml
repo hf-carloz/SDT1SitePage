@@ -8,9 +8,9 @@
 <head>
     <meta charset="utf-8" />
     <title>Project Updates</title>
-    <link href="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Content/bootstrap.css" rel="stylesheet" />
-    <script src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Scripts/jquery-3.1.1.js"></script>
-    <script src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Scripts/bootstrap.js"></script>
+    <link href="https://raw.githack.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Content/bootstrap.css" rel="stylesheet" />
+    <script src="https://raw.githack.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Scripts/jquery-3.1.1.js"></script>
+    <script src="https://raw.githack.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Scripts/bootstrap.js"></script>
     <style>
         .hide {
             display: none !important;
