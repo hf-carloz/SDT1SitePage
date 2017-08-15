@@ -168,12 +168,12 @@
             <!-- BEStPRO -->
             <div id="BEStPRO" class="col-md-12 col-sm-12 col-xs-12 project">
                 <div class="col-md-3 col-sm-3 col-xs-3" style="border-right:solid;border-right-width:2px;">
-                    <img id="project_Icon" class="project_icon" src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/BEStPRO.PNG" />
+                    <img id="project_Icon" class="project_icon" src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/Intra-martIcon.PNG" />
                     <p id="project_Desc" class="project_desc">
-                        すでに全国5,000か所以上の作業所で利用されている建設業向 け工事原価管理システム
-                        「BEStPRO-原価」を一新した新製品です。 本製品は、Microsoft Excelとの親 和性と高い信頼性を実現するため、
-                        ソフトウェア開発基盤を.NET Frameworkとし、より分かりやすいユ ーザーインタフェースへの対応やユーザーからの機能要望を実装し
-                        、大幅な機能強化が図られていま す。特に、建設業務での原価管理に加え、土木現場における機能を強化した点が特徴です。
+                       intra-martは、NTTデータイントラマート社が提供している、
+                       短期間で高品質な業務アプリケーション構築が可能なプラットフォームです。従来ゼロから開発したり、
+                       他社製品を組み合わせないと実現できなかった複雑な機能も、標準装備の業務コンポーネント群を活用することで、
+                       短期間・高品質なWebアプリケーション構築を実現します。
                     </p>
                 </div>
                 <div id="project_Mem" class="col-md-9 col-sm-9 col-xs-9 project_members">
