@@ -16,15 +16,6 @@
             display: none !important;
         }
 
-        #projects > img {
-            padding: 10px;
-        }
-
-        #projects > table {
-            width: 100%;
-        }
-        
- 
         #projects{
             max-height:600px;
         }
@@ -32,7 +23,15 @@
         .project{
             max-height:600px;
         }
-        
+
+        #projects > img {
+            padding: 10px;
+        }
+
+        #projects > table {
+            width: 100%;
+        }
+
         .project_members td > img {
             max-height: 300px;
             max-width: 205px;
@@ -139,14 +138,14 @@
                             <td>
                                 <p>Espie</p>
                                 <img src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/04%20Espie_0182.png" />
-                                <p>Client:</p>
-                                <p>Location:</p>
+                                <p>Client: FETEC</p>
+                                <p>Location: PH - Alabang</p>
                             </td>
                             <td>
                                 <p>Mina</p>
                                 <img src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/10%20Mina_0207.png" />
-                                <p>Client:</p>
-                                <p>Location:</p>
+                                <p>Client: TOA</p>
+                                <p>Location: JP - Yokohama</p>
                             </td>
                             <td>
                                 <p>Misai</p>
@@ -157,8 +156,8 @@
                             <td>
                                 <p>Pau</p>
                                 <img src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/Pau_0206.png" />
-                                <p>Client:</p>
-                                <p>Location:</p>
+                                <p>Client: TOA</p>
+                                <p>Location: JP - Yokohama</p>
                             </td>
                         </tr>
                     </table>
@@ -184,8 +183,8 @@
                             <td>
                                 <p>Mark</p>
                                 <img src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/Mark_0229.png" />
-                                <p>Client:</p>
-                                <p>Location:</p>
+                                <p>Client: Haseko</p>
+                                <p>Location: JP - Yokohama</p>
                             </td>
                         </tr>
                     </table>
