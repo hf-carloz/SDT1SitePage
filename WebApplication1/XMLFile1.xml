@@ -49,27 +49,25 @@
             padding: 10px;
         }
 
-        .project_members > .members{
+        .project_members > .members {
             display: block;
             padding-top: 10px;
             text-align: center;
         }
 
-         .project div > a[title="back"], .project_icons td > img {
-             cursor:pointer;
+        .project div > a[title="back"], .project_icons td > img {
+            cursor: pointer;
+        }
 
-         }
-         a
-        .project div > a[title="back"] {
-          text-align:center;
+        a .project div > a[title="back"] {
+            text-align: center;
         }
 
         .members > p {
         }
 
         .project_icon {
-            display: block;
-            margin: auto;
+           width:100%;
         }
     </style>
     <script>
@@ -83,7 +81,7 @@
             $(".project_icons td > img").click(function () {
                 $("#projects").addClass("hide");
                 title = $(this).attr('title');
-                $("#"+title).removeClass("hide");
+                $("#" + title).removeClass("hide");
             });
 
             $("a[title='back']").click(function () {
@@ -95,7 +93,7 @@
 
         });
 
-      
+
 
 
     </script>
@@ -111,9 +109,6 @@
                         </td>
                         <td>
                             <img title="BEStPRO" src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/BEStPRO.PNG" />
-                        </td>
-                        <td>
-                            <img src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/BEStPRO.PNG" />
                         </td>
                     </tr>
                 </table>
@@ -179,14 +174,14 @@
                         <tr>
                             <td>
                                 <p>Mark</p>
-                                <img src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/Pau_0206.png" />
+                                <img src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/Mark_0229.png" />
                                 <p>Client:</p>
                                 <p>Location:</p>
                             </td>
                         </tr>
                     </table>
                 </div>
-               <div><a title="back"  class="col-md-12 col-sm-12 col-xs-12"> << Back </a></div>
+                <div><a title="back" class="col-md-12 col-sm-12 col-xs-12"> << Back </a></div>
             </div>
             <!-- BEStPRO -->
         </div>
