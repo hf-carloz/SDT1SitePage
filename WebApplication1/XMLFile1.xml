@@ -121,7 +121,7 @@
             <!-- J+ComFITS -->
             <div id="JComFITS" class="col-md-12 col-sm-12 col-xs-12 project">
                 <div class="col-md-3 col-sm-3 col-xs-3" style="border-right:solid;border-right-width:2px;">
-                    <img id="JComFITS_Icon" class="project_icon" src="Resources/pictures/JComFITS.png" />
+                    <img id="JComFITS_Icon" class="project_icon" src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/JComFITS.png" />
                     <p id="JComFITS_Desc" class="project_desc">
                         J＋ComFITs (ジェイプラスコンフィッツ)は、富士通エンジニアリングテクノロジーズ（旧：日揮情報システム）
                         が現在までにご提供してきた建設業向け成功事例を結集した基幹業務システムです。
