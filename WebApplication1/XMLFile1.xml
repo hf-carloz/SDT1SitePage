@@ -17,11 +17,11 @@
         }
 
         #projects{
-            max-height:600px;
+            max-height:500px;
         }
 
         .project{
-            max-height:600px;
+            max-height:500px;
         }
 
         #projects > img {
@@ -116,7 +116,7 @@
                             <img title="JComFITS" src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/JComFITS.png" />
                         </td>
                         <td>
-                            <img title="BEStPRO" src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/Intra-martIcon.png" />
+                            <img title="Intra-mart" src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/Intra-martIcon.png" />
                         </td>
                     </tr>
                 </table>
@@ -165,8 +165,8 @@
                 <div><a title="back" class="col-md-12 col-sm-12 col-xs-12"> << Back </a></div>
             </div>
             <!-- J+ComFITS -->
-            <!-- BEStPRO -->
-            <div id="BEStPRO" class="col-md-12 col-sm-12 col-xs-12 project">
+            <!-- Intra-mart -->
+            <div id="Intra-mart" class="col-md-12 col-sm-12 col-xs-12 project">
                 <div class="col-md-3 col-sm-3 col-xs-3" style="border-right:solid;border-right-width:2px;">
                     <img id="project_Icon" class="project_icon" src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/Intra-martIcon.png" />
                     <p id="project_Desc" class="project_desc">
@@ -191,7 +191,7 @@
                 </div>
                 <div><a title="back" class="col-md-12 col-sm-12 col-xs-12"> << Back </a></div>
             </div>
-            <!-- BEStPRO -->
+            <!-- Intra-mart -->
         </div>
     </div>
 </body>
