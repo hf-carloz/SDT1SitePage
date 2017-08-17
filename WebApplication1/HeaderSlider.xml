@@ -57,7 +57,15 @@
                         controlNav: false,
                         controlNavThumbs: false
                     }); 
+                    
+                    
+                    $('#292260905').ready(function (){
+                           $test = $("#slider img:first").attr("src");
+                            alert($test);
+                    };
         });
+        
+        
     </script>
 </body>
 </html>
