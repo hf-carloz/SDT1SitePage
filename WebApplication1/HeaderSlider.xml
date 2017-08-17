@@ -13,14 +13,7 @@
     <link rel="stylesheet" href="https://raw.githack.com/kd-n/SDT1-MoM/master/demo/style.css" type="text/css" media="screen" />
 </head>
 <body>
-    <div id="wrapper" style="height:300px;width:300px;display:none;">
-        <div class="slider-wrapper theme-default">
-            <div id="slider" class="nivoSlider">
-                <p>Hi</p>
-               
-            </div>
-        </div>
-    </div>
+  
     <div class="getdata slider-wrapper theme-default" style="height:300px;width:300px;">
 
     </div>
