@@ -66,6 +66,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Index\customscripts\JavaScript.js" />
+    <Content Include="Index\Resources\pictures\01Art_Formal.jpg" />
+    <Content Include="Index\Resources\pictures\Carlos.jpg" />
+    <Content Include="Index\Resources\pictures\Dale.png" />
     <Content Include="packages.config" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.1.1.min.map" />
