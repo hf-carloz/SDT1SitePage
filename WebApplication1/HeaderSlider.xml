@@ -62,7 +62,7 @@
                     $('#292260905').ready(function (){
                            $test = $("#slider img:first").attr("src");
                             alert($test);
-                    };
+                    )};
         });
         
         
