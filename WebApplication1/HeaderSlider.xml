@@ -54,6 +54,16 @@
         $(document).ready(function () {
        $test = $("#slider img:first").attr("src");
                     alert($test);
+                    
+                     $(".getdata").append(" <img src= " + $test + " data-thumb=" + $test + "alt='Mina June 2017' title='Mina <br> June 2017'  />");
+
+
+                    $('.getdata').nivoSlider({
+                        effect: 'fade',
+                        startSlide: 0,
+                        controlNav: false,
+                        controlNavThumbs: false
+                    }); 
         });
     </script>
 </body>
