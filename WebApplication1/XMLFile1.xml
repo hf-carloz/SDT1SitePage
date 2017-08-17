@@ -126,7 +126,6 @@
                         </td>
                     </tr>
                     <tr>
-                      
                     </tr>
                 </table>
             </div>
@@ -152,7 +151,7 @@
                             </td>
                             <td>
                                 <p>Art</p>
-                                <img src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/01Art_Formal.jpg" style="width:205px;height:300px;" />
+                                <img src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/01Art_Formal.jpg" />
                                 <p>Client: FETEC </p>
                                 <p>Location: PH - Alabang</p>
                             </td>
