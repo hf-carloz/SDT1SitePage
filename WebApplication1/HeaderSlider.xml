@@ -17,12 +17,7 @@
         <div class="slider-wrapper theme-default">
             <div id="slider" class="nivoSlider">
                 <p>Hi</p>
-                <img src="https://user-images.githubusercontent.com/30331993/29165115-45acd9ce-7df4-11e7-9616-90ad950586ca.JPG" data-thumb="https://user-images.githubusercontent.com/30331993/29165115-45acd9ce-7df4-11e7-9616-90ad950586ca.JPG" alt="Mina <br> June 2017" title="Mina <br> June 2017" />
-                <img src="https://user-images.githubusercontent.com/30331993/29165115-45acd9ce-7df4-11e7-9616-90ad950586ca.JPG" data-thumb="https://user-images.githubusercontent.com/30331993/29165115-45acd9ce-7df4-11e7-9616-90ad950586ca.JPG" alt="Mina <br> May 2017" title="Mina <br> May 2017" />
-                <img src="https://user-images.githubusercontent.com/30331993/29164947-c4f4d386-7df3-11e7-8c0d-09ea58949fbd.JPG" data-thumb="https://user-images.githubusercontent.com/30331993/29164947-c4f4d386-7df3-11e7-8c0d-09ea58949fbd.JPG" alt="Mark <br> March 2017" title="Mark <br> March 2017" />
-                <img src="https://user-images.githubusercontent.com/30331993/29164947-c4f4d386-7df3-11e7-8c0d-09ea58949fbd.JPG" data-thumb="https://user-images.githubusercontent.com/30331993/29164947-c4f4d386-7df3-11e7-8c0d-09ea58949fbd.JPG" alt="Mark <br> February 2017" title="Mark <br> February 2017" />
-                <img src="https://user-images.githubusercontent.com/30331993/29164947-c4f4d386-7df3-11e7-8c0d-09ea58949fbd.JPG" data-thumb="https://user-images.githubusercontent.com/30331993/29164947-c4f4d386-7df3-11e7-8c0d-09ea58949fbd.JPG" alt="Mark <br> January 2017" title="Mark <br> January 2017" />
-                <img src="https://user-images.githubusercontent.com/30331993/29165116-465e5a28-7df4-11e7-9fd5-c8c57cbd0ad3.JPG" data-thumb="https://user-images.githubusercontent.com/30331993/29165116-465e5a28-7df4-11e7-9fd5-c8c57cbd0ad3.JPG" alt="Pau <br> December 2016" title="Pau <br> December 2016" />
+               
             </div>
         </div>
     </div>
@@ -40,7 +35,7 @@
                         controlNavThumbs: false
                     });
                     var $test
-                    $test = $("#slider img:last").attr("src");
+                    $test = $("#slider img:first").attr("src");
                     alert($test);
 
                     $(".getdata").append(" <img src= " + $test + " data-thumb=" + $test + "alt='Mina June 2017' title='Mina <br> June 2017'  />");
@@ -57,7 +52,7 @@
         });
 
         $(document).ready(function () {
-       $test = $("#slider img:last").attr("src");
+       $test = $("#slider img:first").attr("src");
                     alert($test);
         });
     </script>
