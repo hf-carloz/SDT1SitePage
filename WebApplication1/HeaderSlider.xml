@@ -40,7 +40,7 @@
                         controlNavThumbs: false
                     });
                     var $test
-                    $test = $("#slider img:first").attr("src");
+                    $test = $("#slider img:last").attr("src");
                     alert($test);
 
                     $(".getdata").append(" <img src= " + $test + " data-thumb=" + $test + "alt='Mina June 2017' title='Mina <br> June 2017'  />");
@@ -57,7 +57,8 @@
         });
 
         $(document).ready(function () {
-       
+       $test = $("#slider img:last").attr("src");
+                    alert($test);
         });
     </script>
 </body>
