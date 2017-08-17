@@ -17,6 +17,7 @@
         }
 
         #projects{
+            height:500px;
             max-height:500px;
         }
 
@@ -26,6 +27,8 @@
 
         #projects > img {
             padding: 10px;
+            display:block;
+            margin:auto;
         }
 
         #projects > table {
@@ -94,8 +97,8 @@
 
             $("a[title='back']").click(function () {
                 $("#" + title).addClass("hide");
-                title = "";
                 $("#projects").removeClass("hide");
+                title = "";
             });
 
 
@@ -118,6 +121,12 @@
                         <td>
                             <img title="Intra-mart" src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/Intra-martIcon.png" />
                         </td>
+                        <td>
+                            <img title="ER_Worksheet" src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/ERWorksheet.png" />
+                        </td>
+                    </tr>
+                    <tr>
+                      
                     </tr>
                 </table>
             </div>
@@ -142,16 +151,16 @@
                                 <p>Location: PH - Alabang</p>
                             </td>
                             <td>
+                                <p>Art</p>
+                                <img src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/01Art_Formal.jpg" style="width:205px;height:300px;" />
+                                <p>Client: FETEC </p>
+                                <p>Location: PH - Alabang</p>
+                            </td>
+                            <td>
                                 <p>Mina</p>
                                 <img src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/10%20Mina_0207.png" />
                                 <p>Client: TOA</p>
                                 <p>Location: JP - Yokohama</p>
-                            </td>
-                            <td>
-                                <p>Misai</p>
-                                <img src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/Misai_7032.png" />
-                                <p>Client:</p>
-                                <p>Location:</p>
                             </td>
                             <td>
                                 <p>Pau</p>
@@ -192,6 +201,55 @@
                 <div><a title="back" class="col-md-12 col-sm-12 col-xs-12"> << Back </a></div>
             </div>
             <!-- Intra-mart -->
+            <!-- Next Generation MH Management System -->
+            <div id="Next Generation MH Management System" class="col-md-12 col-sm-12 col-xs-12 project">
+                <div class="col-md-3 col-sm-3 col-xs-3" style="border-right:solid;border-right-width:2px;">
+                    <img id="project_Icon" class="project_icon" src="" />
+                    <p id="project_Desc" class="project_desc">
+
+                    </p>
+                </div>
+                <div id="project_Mem" class="col-md-9 col-sm-9 col-xs-9 project_members">
+                    <h4>Members:</h4>
+                    <table class="members">
+                        <tr>
+                            <td>
+                                <p>Misai</p>
+                                <img src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/Misai_7032.png" />
+                                <p>Client:</p>
+                                <p>Location:</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div><a title="back" class="col-md-12 col-sm-12 col-xs-12"> << Back </a></div>
+            </div>
+            <!-- Next Generation MH Management System -->
+            <!-- ER/Worksheet-->
+            <div id="ER_Worksheet" class="col-md-12 col-sm-12 col-xs-12 project">
+                <div class="col-md-3 col-sm-3 col-xs-3" style="border-right:solid;border-right-width:2px;">
+                    <img id="project_Icon" class="project_icon" src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/ERWorksheet.png" />
+                    <p id="project_Desc" class="project_desc">
+                        ER/Worksheet は、このご要望にお応えするもので、ER/Studio Data Architect のオートメーション インターフェイス機能を利用して、
+                        ER/Studio Data Architect と Excel ワークシートを連携させ、メタデータの相互交換を可能にします。
+                    </p>
+                </div>
+                <div id="project_Mem" class="col-md-9 col-sm-9 col-xs-9 project_members">
+                    <h4>Members:</h4>
+                    <table class="members">
+                        <tr>
+                            <td>
+                                <p>Dale</p>
+                                <img src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/Dale.png" />
+                                <p>Client: FETEC</p>
+                                <p>Location: PH - Alabang</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div><a title="back" class="col-md-12 col-sm-12 col-xs-12"> << Back </a></div>
+            </div>
+            <!-- ER/Worksheet-->
         </div>
     </div>
 </body>
