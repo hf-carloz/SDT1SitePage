@@ -38,7 +38,7 @@
                     $test = $("#slider img:first").attr("src");
                     alert($test);
 
-                    $(".getdata").append(" <img src= " + $test + " data-thumb=" + $test + " alt='$("#slider img:first").attr("alt");' title='$("#slider img:first").attr("title");'  />");
+     $(".getdata").append(" <img src= " + $test + " data-thumb=" + $test + " alt='" + $('#slider img:first').attr("alt") +' title=' +$("#slider img:first").attr("title")+ '  />');
 
 
                     $('.getdata').nivoSlider({
@@ -55,7 +55,7 @@
        $test = $("#slider img:first").attr("src");
                     alert($test);
                     
-                
+                     $(".getdata").append(" <img src= " + $test + " data-thumb=" + $test + " alt='" + $('#slider img:first').attr("alt") +' title=' +$("#slider img:first").attr("title")+ '  />');
 
 
                     $('.getdata').nivoSlider({
