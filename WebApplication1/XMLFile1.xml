@@ -110,7 +110,147 @@
     </script>
 </head>
 <body>
+    <div class="container">
+        <div id="project_content" class="row hide">
+            <div id="projects" class="col-md-12 col-sm-12 col-xs-12">
+                <table class="project_icons">
+                    <tr>
+                        <td>
+                            <img title="JComFITS" src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/JComFITS.png" />
+                        </td>
+                        <td>
+                            <img title="Intra-mart" src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/Intra-martIcon.png" />
+                        </td>
+                        <td>
+                            <img title="ER_Worksheet" src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/ERWorksheet.png" />
+                        </td>
+                    </tr>
+                    <tr>
+                    </tr>
+                </table>
+            </div>
+            <!-- J+ComFITS -->
+            <div id="JComFITS" class="col-md-12 col-sm-12 col-xs-12 project">
+                <div class="col-md-3 col-sm-3 col-xs-3" style="border-right:solid;border-right-width:2px;">
+                    <img id="JComFITS_Icon" class="project_icon" src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/JComFITS.png" />
+                    <p id="JComFITS_Desc" class="project_desc">
+                        J＋ComFITs (ジェイプラスコンフィッツ)は、富士通エンジニアリングテクノロジーズ（旧：日揮情報システム）
+                        が現在までにご提供してきた建設業向け成功事例を結集した基幹業務システムです。
+                        建設業の機能を集約し、機能の共通化、標準化を促進しました。
+                    </p>
+                </div>
+                <div id="JComFITS_Mem" class="col-md-9 col-sm-9 col-xs-9 project_members">
+                    <h4>Members:</h4>
+                    <table class="members">
+                        <tr>
+                            <td>
+                                <p>Espie</p>
+                                <img src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/04%20Espie_0182.png" />
+                                <p>Client: FETEC</p>
+                                <p>Location: PH - Alabang</p>
+                            </td>
+                            <td>
+                                <p>Art</p>
+                                <img src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/01Art_Formal.jpg" />
+                                <p>Client: FETEC </p>
+                                <p>Location: PH - Alabang</p>
+                            </td>
+                            <td>
+                                <p>Mina</p>
+                                <img src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/10%20Mina_0207.png" />
+                                <p>Client: TOA</p>
+                                <p>Location: JP - Yokohama</p>
+                            </td>
+                            <td>
+                                <p>Pau</p>
+                                <img src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/Pau_0206.png" />
+                                <p>Client: TOA</p>
+                                <p>Location: JP - Yokohama</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div><a title="back" class="col-md-12 col-sm-12 col-xs-12"> << Back </a></div>
+            </div>
+            <!-- J+ComFITS -->
+            <!-- Intra-mart -->
+            <div id="Intra-mart" class="col-md-12 col-sm-12 col-xs-12 project">
+                <div class="col-md-3 col-sm-3 col-xs-3" style="border-right:solid;border-right-width:2px;">
+                    <img id="project_Icon" class="project_icon" src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/Intra-martIcon.png" />
+                    <p id="project_Desc" class="project_desc">
+                        intra-martは、NTTデータイントラマート社が提供している、
+                        短期間で高品質な業務アプリケーション構築が可能なプラットフォームです。従来ゼロから開発したり、
+                        他社製品を組み合わせないと実現できなかった複雑な機能も、標準装備の業務コンポーネント群を活用することで、
+                        短期間・高品質なWebアプリケーション構築を実現します。
+                    </p>
+                </div>
+                <div id="project_Mem" class="col-md-9 col-sm-9 col-xs-9 project_members">
+                    <h4>Members:</h4>
+                    <table class="members">
+                        <tr>
+                            <td>
+                                <p>Mark</p>
+                                <img src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/Mark_0229.png" />
+                                <p>Client: Haseko</p>
+                                <p>Location: JP - Yokohama</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div><a title="back" class="col-md-12 col-sm-12 col-xs-12"> << Back </a></div>
+            </div>
+            <!-- Intra-mart -->
+            <!-- Next Generation MH Management System -->
+            <div id="Next Generation MH Management System" class="col-md-12 col-sm-12 col-xs-12 project">
+                <div class="col-md-3 col-sm-3 col-xs-3" style="border-right:solid;border-right-width:2px;">
+                    <img id="project_Icon" class="project_icon" src="" />
+                    <p id="project_Desc" class="project_desc">
 
+                    </p>
+                </div>
+                <div id="project_Mem" class="col-md-9 col-sm-9 col-xs-9 project_members">
+                    <h4>Members:</h4>
+                    <table class="members">
+                        <tr>
+                            <td>
+                                <p>Misai</p>
+                                <img src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/Misai_7032.png" />
+                                <p>Client:</p>
+                                <p>Location:</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div><a title="back" class="col-md-12 col-sm-12 col-xs-12"> << Back </a></div>
+            </div>
+            <!-- Next Generation MH Management System -->
+            <!-- ER/Worksheet-->
+            <div id="ER_Worksheet" class="col-md-12 col-sm-12 col-xs-12 project">
+                <div class="col-md-3 col-sm-3 col-xs-3" style="border-right:solid;border-right-width:2px;">
+                    <img id="project_Icon" class="project_icon" src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/ERWorksheet.png" />
+                    <p id="project_Desc" class="project_desc">
+                        ER/Worksheet は、このご要望にお応えするもので、ER/Studio Data Architect のオートメーション インターフェイス機能を利用して、
+                        ER/Studio Data Architect と Excel ワークシートを連携させ、メタデータの相互交換を可能にします。
+                    </p>
+                </div>
+                <div id="project_Mem" class="col-md-9 col-sm-9 col-xs-9 project_members">
+                    <h4>Members:</h4>
+                    <table class="members">
+                        <tr>
+                            <td>
+                                <p>Dale</p>
+                                <img src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/Dale.png" />
+                                <p>Client: FETEC</p>
+                                <p>Location: PH - Alabang</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div><a title="back" class="col-md-12 col-sm-12 col-xs-12"> << Back </a></div>
+            </div>
+            <!-- ER/Worksheet-->
+        </div>
+    </div>
 </body>
 </html>
 ]]>
