@@ -121,7 +121,7 @@
                             <img title="Intra-mart" src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/Intra-martIcon.png" />
                         </td>
                         <td>
-                            <img title="ER_Worksheet" src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/BEStPRO.PNG" />
+                            <img title="QBIC" src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/QBIC.png" />
                         </td>
                     </tr>
                 </table>
@@ -221,10 +221,10 @@
                 </div>
             </div>
             <!-- Next Generation MH Management System -->
-            <!-- ER/Worksheet-->
-            <div id="ER_Worksheet" class="col-md-12 col-sm-12 col-xs-12 project">
+            <!-- QBIC-->
+            <div id="QBIC" class="col-md-12 col-sm-12 col-xs-12 project">
                <div class="col-md-3 col-sm-3 col-xs-3" style="border-right:solid;border-right-width:2px;">
-                    <img id="project_Icon" class="project_icon" src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/JComFITS.png" />
+                    <img id="project_Icon" class="project_icon" src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/QBIC.png" />
                     <p id="project_Desc" class="project_desc">
                         QBICは、プラント建設に使用される建設部品（およびその品質）をクライアント（JGC）が監視できるようにするシステムです。
                     </p>
