@@ -118,7 +118,7 @@
                             <img title="JComFITS" src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/JComFITS.png" />
                         </td>
                         <td>
-                            <img title="Intra-mart" src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/Intra-martIcon.png" />
+                            <img title="Intra-mart" src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/Intra-mart.png" />
                         </td>
                         <td>
                             <img title="QBIC" src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/QBIC.png" />
@@ -173,7 +173,7 @@
             <!-- Intra-mart -->
             <div id="Intra-mart" class="col-md-12 col-sm-12 col-xs-12 project">
                 <div class="col-md-3 col-sm-3 col-xs-3" style="border-right:solid;border-right-width:2px;">
-                    <img id="project_Icon" class="project_icon" src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/Intra-martIcon.png" />
+                    <img id="project_Icon" class="project_icon" src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/Intra-mart.png" />
                     <p id="project_Desc" class="project_desc">
                         intra-martは、NTTデータイントラマート社が提供している、
                         短期間で高品質な業務アプリケーション構築が可能なプラットフォームです。従来ゼロから開発したり、
