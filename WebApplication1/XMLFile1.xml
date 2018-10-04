@@ -229,11 +229,12 @@
             <!-- Next Generation MH Management System -->
             <!-- ER/Worksheet-->
             <div id="ER_Worksheet" class="col-md-12 col-sm-12 col-xs-12 project">
-                <div class="col-md-3 col-sm-3 col-xs-3" style="border-right:solid;border-right-width:2px;">
-                    <img id="project_Icon" class="project_icon" src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/ERWorksheet.png" />
-                    <p id="project_Desc" class="project_desc">
-                        ER/Worksheet は、このご要望にお応えするもので、ER/Studio Data Architect のオートメーション インターフェイス機能を利用して、
-                        ER/Studio Data Architect と Excel ワークシートを連携させ、メタデータの相互交換を可能にします。
+               <div class="col-md-3 col-sm-3 col-xs-3" style="border-right:solid;border-right-width:2px;">
+                    <img id="JComFITS_Icon" class="project_icon" src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/JComFITS.png" />
+                    <p id="JComFITS_Desc" class="project_desc">
+                        J＋ComFITs (ジェイプラスコンフィッツ)は、富士通エンジニアリングテクノロジーズ（旧：日揮情報システム）
+                        が現在までにご提供してきた建設業向け成功事例を結集した基幹業務システムです。
+                        建設業の機能を集約し、機能の共通化、標準化を促進しました。
                     </p>
                     <div><a title="back" class="col-md-12 col-sm-12 col-xs-12"> << Back </a></div>
                 </div>
