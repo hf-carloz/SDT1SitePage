@@ -124,9 +124,7 @@
                             <img title="QBIC" src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/QBIC.png" />
                         </td>
                     </tr>
-                    <tr>
-                        <td align="center">Know more about these projects by clicking their respective logos</td>
-                    </tr>
+                    <p align="center">Know more about these projects by clicking their respective logos</p>
                 </table>
             </div>
             <!-- J+ComFITS -->
