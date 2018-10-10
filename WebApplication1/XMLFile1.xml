@@ -79,6 +79,15 @@
         .project_icon {
            width:100%;
         }
+
+        .banner {
+            display: block;
+            --moz-box-sizing: border-box;
+            box-sizing: border-box;
+            background: url(https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/BEStPRO.PNG) no-repeat;
+            width: 210px; /* Width of new image */
+            height: 210px; /* Height of new image */
+            padding-left: 210px; /* Equal to width of new image */
     </style>
     <script>
 
@@ -115,7 +124,7 @@
                 <table class="project_icons">
                     <tr>
                         <td>
-                            <img title="JComFITS" src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/JComFITS.png" />
+                            <img class="banner" title="JComFITS" src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/JComFITS.png" />
                         </td>
                         <td>
                             <img title="Intra-mart" src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/Intra-mart.png" />
