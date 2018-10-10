@@ -11,6 +11,11 @@
     <link href="https://raw.githack.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Content/bootstrap.css" rel="stylesheet" />
     <script src="https://raw.githack.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Scripts/jquery-3.1.1.js"></script>
     <script src="https://raw.githack.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Scripts/bootstrap.js"></script>
+    
+    <!-- Disable print & right-click behavior -->
+    <style type="text/css" media="print"> img { display: none; } </style>
+    <script> document.oncontextmenu = new Function('return false'); </script>
+
     <style>
         .hide {
             display: none !important;
@@ -80,14 +85,6 @@
            width:100%;
         }
 
-        .banner {
-            display: block;
-            -moz-box-sizing: border-box;
-            box-sizing: border-box;
-            background: url(https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/QBIC.png) no-repeat;
-            width: 210px; /* Width of new image */
-            height: 210px; /* Height of new image */
-            padding-left: 210px; /* Equal to width of new image */
     </style>
     <script>
 
@@ -124,7 +121,7 @@
                 <table class="project_icons">
                     <tr>
                         <td>
-                            <img class="banner" title="JComFITS" src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/JComFITS.png" />
+                            <img title="JComFITS" src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/JComFITS.png" />
                         </td>
                         <td>
                             <img title="Intra-mart" src="https://raw.githubusercontent.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Index/Resources/pictures/Intra-mart.png" />
