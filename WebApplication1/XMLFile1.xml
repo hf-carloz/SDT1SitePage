@@ -105,7 +105,11 @@
                 $("#projects").removeClass("hide");
                 title = "";
             });
-
+ 
+            // this will disable right-click on all images
+            $("body").on("contextmenu",function(e){
+               return false;
+            });
 
         });
 
