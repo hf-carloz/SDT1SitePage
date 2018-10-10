@@ -13,8 +13,8 @@
     <script src="https://raw.githack.com/hf-carloz/SDT1SitePage/master/WebApplication1/WebApplication1/Scripts/bootstrap.js"></script>
     
     <!-- Disable print & right-click behavior -->
-    <style type="text/css" media="print"> img { display: none; } </style>
-    <script> document.oncontextmenu = new Function('return false'); </script>
+    <!--style type="text/css" media="print"> img { display: none; } </style-->
+    <!--script> document.oncontextmenu = new Function('return false'); </script-->
 
     <style>
         .hide {
